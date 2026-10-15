@@ -1,0 +1,156 @@
+[
+  {
+    "_id": "rf_heavy_bleeding",
+    "key": "excessive_hemorrhage",
+    "label": "Severe Menstrual Hemorrhage (Soaking a pad/tampon every hour)",
+    "pattern_keywords": {
+      "en": [
+        "soaking a pad every hour",
+        "soaking through pads",
+        "changing pad every hour",
+        "bleeding heavily with clots larger than a quarter",
+        "continuous gush of blood",
+        "dizzy from bleeding"
+      ],
+      "hi": [
+        "har ghante pad badalna",
+        "har ghante pad geela",
+        "bohot zyada bleeding",
+        "khoon band nahi ho raha",
+        "bleeding ke saath chakkar aana"
+      ],
+      "kn": [
+        "ಪ್ರತಿ ಗಂಟೆಗೆ ಪ್ಯಾಡ್ ಬದಲಾಯಿಸುವುದು",
+        "ವಿಪರೀತ ರಕ್ತಸ್ರಾವ",
+        "prathi gantege pad change",
+        "jasti bleeding agthide"
+      ]
+    },
+    "message": {
+      "en": "Soaking through one or more sanitary pads/tampons every hour for consecutive hours or feeling faint/dizzy from heavy bleeding requires immediate urgent clinical evaluation.",
+      "hi": "लगातार हर घंटे पैड भीगना या अत्यधिक रक्तस्राव के साथ चक्कर आना एक आपातकालीन स्थिति हो सकती है। कृपया तुरंत नजदीकी अस्पताल या डॉक्टर से संपर्क करें।",
+      "kn": "ಪ್ರತಿ ಗಂಟೆಗೆ ಪ್ಯಾಡ್ ನೆನೆಯುವಷ್ಟು ರಕ್ತಸ್ರಾವವಾಗುವುದು ಅಥವಾ ತಲೆಸುತ್ತು ಬರುವುದು ಗಂಭೀರ ಲಕ್ಷಣವಾಗಿದೆ. ದಯವಿಟ್ಟು ತಕ್ಷಣವೇ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+    },
+    "action": "Urgent Medical Care Required: Please visit the nearest emergency room or consult a gynecologist immediately."
+  },
+  {
+    "_id": "rf_severe_pain",
+    "key": "acute_severe_pelvic_pain",
+    "label": "Acute Severe Pelvic or Abdominal Pain",
+    "pattern_keywords": {
+      "en": [
+        "severe pelvic pain",
+        "unbearable lower abdominal pain",
+        "sharp stabbing pain in ovary",
+        "sudden severe stomach cramps",
+        "doubled over in pain"
+      ],
+      "hi": [
+        "asahaniya dard",
+        "pet me bohot tez dard",
+        "pelvic area me teekha dard",
+        "dard bardasht ke bahar"
+      ],
+      "kn": [
+        "ತೀವ್ರ ಹೊಟ್ಟೆ ನೋವು",
+        "ಅಸಹನೀಯ ಕಿಬ್ಬೊಟ್ಟೆ ನೋವು",
+        "theevra novu",
+        "kibbotte novu thalegolala"
+      ]
+    },
+    "message": {
+      "en": "Sudden, severe, or worsening pelvic pain can indicate ovarian torsion, ruptured cyst, or appendicitis and requires prompt in-person emergency examination.",
+      "hi": "अचानक या असहनीय तेज पेट/पेल्विक दर्द किसी गंभीर समस्या का संकेत हो सकता है। तुरंत आपातकालीन चिकित्सा सहायता लें।",
+      "kn": "ಹಠಾತ್ ಬರುವ ತೀವ್ರ ಹೊಟ್ಟೆ ನೋವು ತುರ್ತು ಚಿಕಿತ್ಸೆಯ ಅಗತ್ಯವನ್ನು ಸೂಚಿಸುತ್ತದೆ. ತಕ್ಷಣ ವೈದ್ಯರನ್ನು ಭೇಟಿ ಮಾಡಿ."
+    },
+    "action": "Urgent Evaluation Needed: Do not wait; proceed to emergency care or call emergency medical services."
+  },
+  {
+    "_id": "rf_pregnancy_bleeding",
+    "key": "pregnancy_bleeding_pain",
+    "label": "Pregnancy with Bleeding or Cramping",
+    "pattern_keywords": {
+      "en": [
+        "pregnant and bleeding",
+        "positive pregnancy test with pain",
+        "pregnant spotting with cramps",
+        "ectopic suspicion"
+      ],
+      "hi": [
+        "pregnant hu aur khoon aa raha hai",
+        "pregnancy me bleeding",
+        "garbhvati aur pet dard"
+      ],
+      "kn": [
+        "ಗರ್ಭಿಣಿ ರಕ್ತಸ್ರಾವ",
+        "garbhini bleeding"
+      ]
+    },
+    "message": {
+      "en": "Any vaginal bleeding or one-sided pelvic pain during confirmed or suspected pregnancy requires immediate emergency assessment to rule out ectopic pregnancy.",
+      "hi": "गर्भावस्था के दौरान किसी भी प्रकार का रक्तस्राव या पेट दर्द तुरंत डॉक्टर को दिखाने योग्य है।",
+      "kn": "ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ರಕ್ತಸ್ರಾವ ಅಥವಾ ನೋವು ಕಂಡುಬಂದರೆ ತಕ್ಷಣ ವೈದ್ಯರನ್ನು ಕಾಣುವುದು ಅತ್ಯಗತ್ಯ."
+    },
+    "action": "Immediate Emergency Obstetric Evaluation."
+  },
+  {
+    "_id": "rf_fainting_syncope",
+    "key": "fainting_syncope",
+    "label": "Fainting, Loss of Consciousness, or Severe Dizziness",
+    "pattern_keywords": {
+      "en": [
+        "fainted",
+        "passed out",
+        "blacked out",
+        "feeling like fainting",
+        "collapse",
+        "severe dizziness"
+      ],
+      "hi": [
+        "behosh ho gayi",
+        "chakkar aake gir gayi",
+        "aankho ke aage andhera"
+      ],
+      "kn": [
+        "ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು",
+        "ಮೂರ್ಛೆ ಹೋಗುವುದು",
+        "pragne thappuvudu"
+      ]
+    },
+    "message": {
+      "en": "Loss of consciousness, collapse, or severe lightheadedness linked to abdominal symptoms requires urgent medical evaluation for hypovolemia or acute internal distress.",
+      "hi": "बेहोश होना या आंखों के आगे अंधेरा छाना गंभीर आंतरिक कारण हो सकता है। तुरंत चिकित्सा सहायता लें।",
+      "kn": "ಪ್ರಜ್ಞೆ ತಪ್ಪುವುದು ಅಥವಾ ತೀವ್ರ ತಲೆಸುತ್ತು ಗಂಭೀರ ಸ್ಥಿತಿಯಾಗಿದೆ. ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ."
+    },
+    "action": "Immediate Emergency Medical Evaluation."
+  },
+  {
+    "_id": "rf_self_harm",
+    "key": "self_harm_ideation",
+    "label": "Thoughts of Self-Harm or Crisis",
+    "pattern_keywords": {
+      "en": [
+        "want to end my life",
+        "suicide",
+        "kill myself",
+        "self harm",
+        "don't want to live"
+      ],
+      "hi": [
+        "jeena nahi chahti",
+        "khud ko nuksan",
+        "jaan dena"
+      ],
+      "kn": [
+        "ಜೀವ ಕಳೆದುಕೊಳ್ಳುವುದು",
+        "ಆತ್ಮಹತ್ಯೆ"
+      ]
+    },
+    "message": {
+      "en": "You are not alone and compassionate help is available right now. Please reach out to emergency services or call the national tele-mental health helpline (KIRAN at 1800-599-0019 / Vandrevala Foundation at 9999 666 555 in India, or 988 in the US).",
+      "hi": "आप अकेली नहीं हैं। कृपया तुरंत सहायता हेल्पलाइन से संपर्क करें: किरण (1800-599-0019) या टेली-मानस (14416)।",
+      "kn": "ನೀವು ಒಬ್ಬಂಟಿಯಲ್ಲ, ಸಹಾಯ ಲಭ್ಯವಿದೆ. ದಯವಿಟ್ಟು ಸಹಾಯವಾಣಿಗೆ ಕರೆ ಮಾಡಿ: 14416 (Tele-MANAS)."
+    },
+    "action": "Immediate Crisis Support: Reach out to a dedicated helpline immediately."
+  }
+]

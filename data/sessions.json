@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "sess_demo_1",
+    "created_at": "2026-10-15T00:00:00Z",
+    "language": "en",
+    "input_text": "My periods come every 2-3 months, I have a lot of acne and facial hair",
+    "extracted": {
+      "cycle_pattern": "irregular",
+      "cycle_gap_months_approx": 2.5,
+      "matched_keys": [
+        {"key": "irregular_cycles", "evidence": "come every 2-3 months", "confidence_note": "Explicit oligomenorrhea description"},
+        {"key": "acne_cystic", "evidence": "a lot of acne", "confidence_note": "Cutaneous androgen sign"},
+        {"key": "facial_hair_hirsutism", "evidence": "facial hair", "confidence_note": "Terminal hair distribution"}
+      ],
+      "red_flags": [],
+      "missing_info": ["pelvic ultrasound status", "duration of acne"]
+    },
+    "matched": {
+      "pcos_criteria_met": ["ovulatory_dysfunction", "hyperandrogenism"],
+      "rotterdam_category_count": 2,
+      "pcos_pattern_status": "aligns_with_pattern",
+      "conditions_surfaced": ["pcos"],
+      "urgency": "soon"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "SakhiCheck",
+  "description": "Empathetic, regional-language symptom understanding for women's hormonal health and PCOS guidance with clinical safety guardrails.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

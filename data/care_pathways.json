@@ -1,0 +1,176 @@
+[
+  {
+    "_id": "pathway_pcos",
+    "condition_key": "pcos",
+    "specialist": "Gynecologist or Reproductive Endocrinologist",
+    "summary": "Evaluation revolves around confirming ovulatory function, checking androgen levels, assessing metabolic markers, and scheduling a pelvic ultrasound.",
+    "tests": [
+      {
+        "name": "Pelvic Ultrasound (Transvaginal or Transabdominal)",
+        "purpose": "Evaluates ovarian volume and presence of 20+ peripheral follicles (2-9mm in diameter) per ovary.",
+        "note": "A doctor can order this scan; it cannot be determined by symptoms alone."
+      },
+      {
+        "name": "Total Testosterone & Free Androgen Index (FAI)",
+        "purpose": "Assesses biochemical androgen excess.",
+        "note": "Best drawn in the early morning; ideally off oral contraceptives."
+      },
+      {
+        "name": "DHEA-Sulfate (DHEA-S)",
+        "purpose": "Evaluates adrenal androgen production to rule out adrenal gland causes."
+      },
+      {
+        "name": "Day 2 to Day 5 FSH & LH",
+        "purpose": "Checks the balance between follicle stimulating hormone and luteinizing hormone."
+      },
+      {
+        "name": "Fasting Blood Glucose & Fasting Insulin (or HOMA-IR / 2hr OGTT)",
+        "purpose": "Screens for insulin resistance, which commonly drives PCOS symptoms."
+      },
+      {
+        "name": "TSH & Serum Prolactin",
+        "purpose": "Rules out thyroid dysfunction or hyperprolactinemia as alternative causes of missed cycles."
+      }
+    ],
+    "urgency_rules": [
+      {
+        "level": "urgent",
+        "condition": "Severe acute pelvic pain or heavy continuous hemorrhage (soaking hourly pads).",
+        "recommendation": "Emergency room / immediate hospital evaluation."
+      },
+      {
+        "level": "soon",
+        "condition": "Amenorrhea for 3+ consecutive months (missed periods) or recurring irregular cycles over multiple check-ins.",
+        "recommendation": "Schedule an in-person consultation within 2 to 4 weeks to protect the endometrial lining."
+      },
+      {
+        "level": "routine",
+        "condition": "Mild cycle variation, cosmetic facial hair, or adult acne seeking management.",
+        "recommendation": "Book a routine appointment with a gynecologist or dermatologist at your convenience."
+      }
+    ],
+    "questions_for_doctor": [
+      "Based on my cycle history and signs, what tests do you recommend to check my hormone and insulin levels?",
+      "Would a pelvic ultrasound be appropriate to evaluate my ovaries at this stage?",
+      "Are there lifestyle or dietary modifications that can help stabilize my cycle and energy?",
+      "Do we need to protect my uterine lining if my periods remain infrequent?",
+      "What are the options for managing facial hair and acne that address the root cause?"
+    ],
+    "preparation_tips": [
+      "Track the start date and duration of your last 3-6 menstrual cycles on a calendar or app.",
+      "Bring a photo of any recurring facial breakouts if they are not active on the appointment day.",
+      "List all supplements, herbal teas, or medications you are currently taking."
+    ]
+  },
+  {
+    "_id": "pathway_thyroid",
+    "condition_key": "thyroid_disorders",
+    "specialist": "General Physician or Endocrinologist",
+    "summary": "Evaluates thyroid hormone production through standard venous blood tests.",
+    "tests": [
+      {
+        "name": "Serum TSH (Thyroid Stimulating Hormone)",
+        "purpose": "The primary sensitive screening test for overactive or underactive thyroid function."
+      },
+      {
+        "name": "Free T3 & Free T4",
+        "purpose": "Measures active circulating thyroid hormones."
+      },
+      {
+        "name": "Anti-TPO Antibodies",
+        "purpose": "Checks for autoimmune thyroid conditions (Hashimoto's thyroiditis)."
+      }
+    ],
+    "urgency_rules": [
+      {
+        "level": "routine",
+        "condition": "Persistent fatigue, cold intolerance, or cycle changes without acute red flags.",
+        "recommendation": "Consult a primary care doctor within 2 to 4 weeks for a basic thyroid blood panel."
+      }
+    ],
+    "questions_for_doctor": [
+      "Could an underactive thyroid be contributing to my tiredness, feeling cold, or period changes?",
+      "Should we test both TSH and Free T3/T4?",
+      "What morning fasting routine is required before having this blood test drawn?"
+    ],
+    "preparation_tips": [
+      "Avoid taking high-dose Biotin supplements for 48 hours prior to thyroid blood tests as it can interfere with lab assays."
+    ]
+  },
+  {
+    "_id": "pathway_isolated_shedding",
+    "condition_key": "isolated_hair_shedding",
+    "specialist": "General Physician or Dermatologist",
+    "summary": "Addresses diffuse hair loss without hormonal involvement. Shedding has many possible causes (scalp conditions like dandruff, stress, nutrition, thyroid, or post-illness telogen effluvium).",
+    "isolated_shedding_guidance": {
+      "explanation": "Hair shedding alone has many possible causes, including scalp conditions (like dandruff or seborrhea), physical or emotional stress, nutritional deficiencies (such as iron or vitamin D), thyroid fluctuations, or recent viral illness. When unaccompanied by cycle irregularities or androgen signs, it usually does not indicate PCOS.",
+      "suggested_specialist": "General Physician or Dermatologist",
+      "follow_up_questions_to_ask_yourself": [
+        "Do you have dandruff, scalp itching, redness, or flaking?",
+        "How long has the increased shedding been occurring (e.g. less than 2 months or more than 6 months)?",
+        "Have you had any recent high fever, severe illness (like dengue or COVID), rapid weight change, or major stress 2-3 months before the shedding started?",
+        "Have you checked your iron/ferritin, hemoglobin, or vitamin D levels recently?"
+      ]
+    },
+    "tests": [
+      {
+        "name": "Complete Blood Count (CBC) & Serum Ferritin",
+        "purpose": "Checks for iron deficiency anemia, a very common cause of diffuse telogen hair fall."
+      },
+      {
+        "name": "Serum Vitamin D & Vitamin B12",
+        "purpose": "Assesses micronutrients vital for hair follicle cycling."
+      },
+      {
+        "name": "Dermatological Scalp Trichoscopy",
+        "purpose": "Non-invasive camera exam of hair follicles to differentiate between telogen effluvium and scalp irritation."
+      }
+    ],
+    "urgency_rules": [
+      {
+        "level": "routine",
+        "condition": "Mild to moderate hair shedding with regular cycles and no red flags.",
+        "recommendation": "Consult a dermatologist or general physician if shedding continues beyond 8-12 weeks."
+      }
+    ],
+    "questions_for_doctor": [
+      "Could my hair shedding be linked to scalp health, dandruff, or nutritional gaps like iron or vitamin D?",
+      "Is this diffuse telogen effluvium or pattern-related thinning?",
+      "What gentle scalp care routine or medicated shampoo do you recommend?"
+    ],
+    "preparation_tips": [
+      "Avoid shampooing on the morning of your dermatology appointment so the doctor can assess natural scalp oil and follicular state.",
+      "Note down any stressful event or illness from 2-3 months prior."
+    ]
+  },
+  {
+    "_id": "pathway_hyperprolactinemia",
+    "condition_key": "hyperprolactinemia",
+    "specialist": "Endocrinologist or Gynecologist",
+    "summary": "Evaluates prolactin hormone levels and pituitary axis.",
+    "tests": [
+      {
+        "name": "Fasting Serum Prolactin (Morning Sample)",
+        "purpose": "Measures prolactin concentration; best drawn resting in the morning."
+      },
+      {
+        "name": "MRI of Pituitary Gland (if indicated by doctor)",
+        "purpose": "Assesses for benign microadenomas if serum prolactin is markedly elevated."
+      }
+    ],
+    "urgency_rules": [
+      {
+        "level": "soon",
+        "condition": "Unexplained nipple discharge or absent periods.",
+        "recommendation": "Consult a doctor within 2 to 3 weeks."
+      }
+    ],
+    "questions_for_doctor": [
+      "Could my missed periods be linked to elevated prolactin?",
+      "Are any of my current medications known to elevate prolactin levels?"
+    ],
+    "preparation_tips": [
+      "Rest for 20 minutes before blood sample collection, as emotional or physical stress can transiently raise prolactin."
+    ]
+  }
+]

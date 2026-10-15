@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "cond_pcos",
+    "key": "pcos",
+    "name": "Polycystic Ovary Syndrome (PCOS) Pattern",
+    "summary_simple": "A common hormonal condition where the ovaries may produce higher levels of androgens (hormones) or release eggs irregularly. It is identified clinically by looking at cycle patterns, signs of androgen excess, and ovarian appearance on an ultrasound.",
+    "criteria": [
+      {
+        "id": "crit_ovulatory",
+        "name": "Ovulatory & Menstrual Irregularity",
+        "description": "Cycles longer than 35 days, fewer than 8 cycles per year, or absence of periods for 3+ consecutive months without pregnancy.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_androgen",
+        "name": "Hyperandrogenism (Hormonal Signs)",
+        "description": "Excess coarse facial/body hair (hirsutism), persistent cystic/jawline acne, or pattern hair thinning (widening part/crown). Note: general hair shedding alone does NOT count.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_ultrasound",
+        "name": "Polycystic Ovarian Morphology",
+        "description": "Enlarged ovaries or multiple small follicles visualized via pelvic ultrasound. (Requires medical imaging; cannot be self-reported).",
+        "self_reportable": false
+      }
+    ],
+    "related_symptoms": [
+      "irregular_cycles",
+      "absent_cycles",
+      "facial_hair_hirsutism",
+      "acne_cystic",
+      "hair_thinning_pattern",
+      "weight_changes_gain",
+      "dark_skin_patches",
+      "mood_changes"
+    ],
+    "when_to_see_doctor": "If you experience irregular cycles, missed periods, sudden changes in body hair or persistent cystic acne, or are planning a pregnancy.",
+    "sources": [
+      "Rotterdam ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group (2004)",
+      "International Evidence-based Guideline for the Assessment and Management of PCOS (2023)"
+    ]
+  },
+  {
+    "_id": "cond_thyroid",
+    "key": "thyroid_disorders",
+    "name": "Thyroid Function Irregularity",
+    "summary_simple": "The thyroid gland regulates metabolism and hormone balance throughout the body. An underactive thyroid (hypothyroidism) or overactive thyroid can mimic or overlap with menstrual irregularities, fatigue, and hair changes.",
+    "criteria": [
+      {
+        "id": "crit_thyroid_metabolic",
+        "name": "Metabolic & Temperature Changes",
+        "description": "Marked fatigue, persistent sensitivity to cold, weight changes despite no diet change.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_thyroid_cycle",
+        "name": "Menstrual Changes",
+        "description": "Heavier or irregular bleeding patterns linked to thyroid hormone fluctuations.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_thyroid_serology",
+        "name": "Biochemical Thyroid Levels (TSH, Free T3/T4)",
+        "description": "Determined strictly via venous blood test. Cannot be determined from symptoms alone.",
+        "self_reportable": false
+      }
+    ],
+    "related_symptoms": [
+      "fatigue_exhaustion",
+      "cold_intolerance",
+      "weight_changes_gain",
+      "hair_shedding_general",
+      "irregular_cycles"
+    ],
+    "when_to_see_doctor": "When extreme tiredness, feeling unusually cold, or sluggishness occurs alongside cycle irregularity.",
+    "sources": [
+      "American Thyroid Association (ATA) Guidelines",
+      "Endocrine Society Clinical Practice Guidelines"
+    ]
+  },
+  {
+    "_id": "cond_hyperprolactinemia",
+    "key": "hyperprolactinemia",
+    "name": "Elevated Prolactin Levels",
+    "summary_simple": "Prolactin is a hormone that controls milk production and regulates the reproductive cycle. Elevated levels can suppress normal ovulation and cause periods to stop or become irregular.",
+    "criteria": [
+      {
+        "id": "crit_prolactin_cycle",
+        "name": "Ovulatory Suppression",
+        "description": "Amenorrhea (missed periods) or oligomenorrhea (delayed cycles).",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_prolactin_galactorrhea",
+        "name": "Nipple Discharge / Breast Tenderness",
+        "description": "Spontaneous or expressible milky discharge without pregnancy/breastfeeding.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_prolactin_serum",
+        "name": "Serum Prolactin Level",
+        "description": "Confirmed via morning fasting blood test.",
+        "self_reportable": false
+      }
+    ],
+    "related_symptoms": [
+      "absent_cycles",
+      "irregular_cycles",
+      "galactorrhea_discharge",
+      "headaches_visual"
+    ],
+    "when_to_see_doctor": "If your periods have ceased or you notice unexpected breast discharge or recurring headaches.",
+    "sources": [
+      "The Endocrine Society Hyperprolactinemia Diagnosis & Management"
+    ]
+  },
+  {
+    "_id": "cond_isolated_shedding",
+    "key": "isolated_hair_shedding",
+    "name": "General Hair Shedding / Scalp Health",
+    "summary_simple": "Hair shedding (telogen effluvium) is frequently temporary and driven by scalp health (like dandruff), acute stress, iron or vitamin deficiencies, or recent fever, rather than a hormonal disorder.",
+    "criteria": [
+      {
+        "id": "crit_shedding_diffuse",
+        "name": "Diffuse Hair Fall Without Hormonal Features",
+        "description": "Hair shedding without menstrual irregularity, without hirsutism, and without cystic acne.",
+        "self_reportable": true
+      },
+      {
+        "id": "crit_scalp_involvement",
+        "name": "Scalp Conditions (Dandruff / Flaking / Itch)",
+        "description": "Visible flaking or scalp irritation that impairs the hair follicle barrier.",
+        "self_reportable": true
+      }
+    ],
+    "related_symptoms": [
+      "hair_shedding_general",
+      "scalp_dandruff_itching"
+    ],
+    "when_to_see_doctor": "If shedding persists beyond 3-4 months, or if accompanied by scalp soreness, patches of complete baldness, or fatigue.",
+    "sources": [
+      "British Association of Dermatologists (BAD)",
+      "Indian Association of Dermatologists, Venereologists and Leprologists (IADVL)"
+    ]
+  }
+]

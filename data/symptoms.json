@@ -1,0 +1,522 @@
+[
+  {
+    "_id": "sym_irregular_cycles",
+    "key": "irregular_cycles",
+    "label_en": "Irregular or Delayed Periods",
+    "category": "menstrual",
+    "rotterdam_category": "ovulatory_dysfunction",
+    "description": "Periods coming unpredictably, cycles varying by more than 7-10 days, or cycles lasting longer than 35 days.",
+    "synonyms": {
+      "en": [
+        "irregular periods",
+        "late periods",
+        "delayed periods",
+        "unpredictable cycle",
+        "periods come late",
+        "oligomenorrhea",
+        "mensturation irregulr",
+        "irregular menstruation",
+        "period dates change every month"
+      ],
+      "hi": [
+        "periods irregular",
+        "period aage peeche",
+        "period time pe nahi aate",
+        "mahina aage peeche hota hai",
+        "irregulr period",
+        "aniyamit periods",
+        "cycle late aati hai",
+        "period dates fix nahi hain",
+        "ruk ruk ke aana"
+      ],
+      "kn": [
+        "ಅನಿಯಮಿತ ಮುಟ್ಟು",
+        "ಮುಟ್ಟು ತಡವಾಗಿ ಬರುವುದು",
+        "ತಿಂಗಳ ಮುಟ್ಟು ಸರಿ ಇಲ್ಲ",
+        "ಕಾಲಕ್ಕೆ ಸರಿಯಾಗಿ ಮುಟ್ಟು ಆಗಲ್ಲ",
+        "aniyamitha muttu",
+        "muttu late agodu",
+        "period time ge barolla"
+      ]
+    },
+    "linked_conditions": ["pcos", "thyroid_disorders", "hyperprolactinemia"]
+  },
+  {
+    "_id": "sym_absent_cycles",
+    "key": "absent_cycles",
+    "label_en": "Missed or Absent Periods (Amenorrhea)",
+    "category": "menstrual",
+    "rotterdam_category": "ovulatory_dysfunction",
+    "description": "No menstrual period for 3 or more months in someone who previously had periods.",
+    "synonyms": {
+      "en": [
+        "missed periods",
+        "no periods for 3 months",
+        "period stopped",
+        "absent periods",
+        "amenorrhea",
+        "haven't had period in 3 months",
+        "2-3 months no period",
+        "periods absent"
+      ],
+      "hi": [
+        "3 mahine se period nahi aaya",
+        "period band ho gaye",
+        "do teen mahine se period nahi",
+        "period aana band ho gaya",
+        "mahina nahi aaya",
+        "period miss ho gaya",
+        "char mahine se period gayab",
+        "3 months se period nahi"
+      ],
+      "kn": [
+        "ಮೂರು ತಿಂಗಳಿಂದ ಮುಟ್ಟು ಬಂದಿಲ್ಲ",
+        "ಮುಟ್ಟು ನಿಂತು ಹೋಗಿದೆ",
+        "ತಿಂಗಳುಗಳು ಕಳೆದರೂ ಮುಟ್ಟು ಇಲ್ಲ",
+        "3 tingalinda muttu bandilla",
+        "muttu bandilla"
+      ]
+    },
+    "linked_conditions": ["pcos", "hyperprolactinemia", "thyroid_disorders"]
+  },
+  {
+    "_id": "sym_period_pain",
+    "key": "period_pain",
+    "label_en": "Period Cramps / Menstrual Pain",
+    "category": "menstrual",
+    "rotterdam_category": null,
+    "description": "Lower abdominal or pelvic cramping associated with menstrual cycles.",
+    "synonyms": {
+      "en": [
+        "period cramps",
+        "cramps",
+        "menstrual cramps",
+        "menstrual pain",
+        "cramping during periods",
+        "painful periods",
+        "dysmenorrhea"
+      ],
+      "hi": [
+        "period me dard",
+        "cramps hote hain",
+        "mahine me pet dard",
+        "periods ke time dard"
+      ],
+      "kn": [
+        "ಮುಟ್ಟಿನ ನೋವು",
+        "ಹೊಟ್ಟೆ ನೋವು ಮುಟ್ಟಿನ ಸಮಯದಲ್ಲಿ",
+        "muttina novu"
+      ]
+    },
+    "linked_conditions": ["pcos"]
+  },
+  {
+    "_id": "sym_facial_hair_hirsutism",
+    "key": "facial_hair_hirsutism",
+    "label_en": "Excess Facial or Body Hair (Hirsutism)",
+    "category": "androgen",
+    "rotterdam_category": "hyperandrogenism",
+    "description": "Coarse, dark hair growing in male-pattern distribution such as chin, upper lip, chest, stomach, or back.",
+    "synonyms": {
+      "en": [
+        "facial hair",
+        "chin hair",
+        "upper lip hair",
+        "excess body hair",
+        "hirsutism",
+        "thick facial hair",
+        "hair on chin",
+        "hair on chest",
+        "mustache hair women"
+      ],
+      "hi": [
+        "chehre par baal",
+        "thodi par baal",
+        "facial hair bohot hai",
+        "chin par hair",
+        "honth ke upar baal",
+        "sharir par jyada baal",
+        "face par mote baal",
+        "chehre par anchahe baal"
+      ],
+      "kn": [
+        "ಮುಖದಲ್ಲಿ ಕೂದಲು",
+        "ಗಡ್ಡದಲ್ಲಿ ಕೂದಲು",
+        "ಮುಖದ ಮೇಲೆ ಅನಗತ್ಯ ಕೂದಲು",
+        "mukhada mele koodalu",
+        "facial hair barthide",
+        "chin mele hair"
+      ]
+    },
+    "linked_conditions": ["pcos"]
+  },
+  {
+    "_id": "sym_acne_cystic",
+    "key": "acne_cystic",
+    "label_en": "Persistent or Cystic Acne",
+    "category": "androgen",
+    "rotterdam_category": "hyperandrogenism",
+    "description": "Deep, painful, or persistent pimples typically along the jawline, chin, or cheeks, often resistant to regular face washes.",
+    "synonyms": {
+      "en": [
+        "cystic acne",
+        "jawline acne",
+        "hormonal acne",
+        "lots of acne",
+        "painful pimples",
+        "stubborn pimples",
+        "acn",
+        "breakouts on chin",
+        "pimples that don't go away"
+      ],
+      "hi": [
+        "bohot sare pimples",
+        "chehre par daane",
+        "cystic acne",
+        "jawline par acne",
+        "dard bhare pimples",
+        "muhase",
+        "pimples theek nahi ho rahe"
+      ],
+      "kn": [
+        "ಮೊಡವೆಗಳು",
+        "ದೊಡ್ಡ ನೋವಿನ ಮೊಡವೆಗಳು",
+        "ಮುಖದಲ್ಲಿ ಗಡ್ಡೆ ಮೊಡವೆ",
+        "modavegalu",
+        "jawline acne",
+        "pimples thumba ide"
+      ]
+    },
+    "linked_conditions": ["pcos"]
+  },
+  {
+    "_id": "sym_hair_thinning_pattern",
+    "key": "hair_thinning_pattern",
+    "label_en": "Pattern Hair Thinning (Crown / Parting)",
+    "category": "androgen",
+    "rotterdam_category": "hyperandrogenism",
+    "description": "Specific thinning of hair at the crown of the head or widening of the hair parting line (female pattern androgenetic alopecia).",
+    "synonyms": {
+      "en": [
+        "widening hair part",
+        "hair thinning on top",
+        "crown thinning",
+        "scalp visible on top",
+        "female pattern baldness",
+        "hair partition widening",
+        "thinning at crown"
+      ],
+      "hi": [
+        "maang choudi ho rahi hai",
+        "sar ke upar se baal patle",
+        "crown area me baal kam",
+        "sar ki twacha dikh rahi hai",
+        "upar se ganjapan"
+      ],
+      "kn": [
+        "ತಲೆಯ ಮಧ್ಯದಲ್ಲಿ ಕೂದಲು ತೆಳುವಾಗುವುದು",
+        "ಬೈತಲೆ ಅಗಲವಾಗುವುದು",
+        "തലைய ಮೇಲ್ಭಾಗದಲ್ಲಿ ಕೂದಲು ಕಡಿಮೆ",
+        "baitale agala agodu",
+        "crown hair thinning"
+      ]
+    },
+    "linked_conditions": ["pcos"]
+  },
+  {
+    "_id": "sym_hair_shedding_general",
+    "key": "hair_shedding_general",
+    "label_en": "General Hair Shedding (Diffuse Fall)",
+    "category": "hair_scalp",
+    "rotterdam_category": null,
+    "description": "Diffuse shedding of hair strands, commonly noticed while showering, combing, or on pillowcases. Does NOT constitute a Rotterdam androgen criterion on its own.",
+    "synonyms": {
+      "en": [
+        "hair shedding",
+        "hair fall",
+        "losing hair while bathing",
+        "hair falling out",
+        "hair loss in shower",
+        "hair fall in comb",
+        "excessive hair shedding",
+        "hair falling"
+      ],
+      "hi": [
+        "baal jhad rahe hain",
+        "nahate time baal girte hain",
+        "hair fall bohot hai",
+        "baal girna",
+        "kanghi karte waqt baal aana",
+        "baal bohot jhadte hain"
+      ],
+      "kn": [
+        "ಕೂದಲು ಉದುರುವುದು",
+        "ಸ್ನಾನ ಮಾಡುವಾಗ ಕೂದಲು ಉದುರುವುದು",
+        "ಕೂದಲು ಉದುರುತ್ತಿದೆ",
+        "koodalu uduruvudu",
+        "hair fall aagthide",
+        "snana maduvaga hair fall"
+      ]
+    },
+    "linked_conditions": ["isolated_hair_shedding", "thyroid_disorders", "pcos"]
+  },
+  {
+    "_id": "sym_scalp_dandruff_itching",
+    "key": "scalp_dandruff_itching",
+    "label_en": "Dandruff or Itchy Scalp",
+    "category": "hair_scalp",
+    "rotterdam_category": null,
+    "description": "Flaking or itching of the scalp skin (dandruff/seborrheic dermatitis), a common benign cause of hair root irritation and shedding.",
+    "synonyms": {
+      "en": [
+        "dandruff",
+        "itchy scalp",
+        "scalp flakes",
+        "head itching",
+        "white flakes in hair",
+        "seborrhea"
+      ],
+      "hi": [
+        "dandruff hai",
+        "sar me rusi",
+        "sar me khujli",
+        "dandruff bhi hai",
+        "sar se papdi nikalna"
+      ],
+      "kn": [
+        "ತಲೆಯಲ್ಲಿ ಹೊಟ್ಟು",
+        "ತಲೆ ನವೆ",
+        "ಹೊಟ್ಟು ಸಮಸ್ಯೆ",
+        "taleyalli hottu",
+        "dandruff ide",
+        "tale thilu"
+      ]
+    },
+    "linked_conditions": ["isolated_hair_shedding"]
+  },
+  {
+    "_id": "sym_weight_changes_gain",
+    "key": "weight_changes_gain",
+    "label_en": "Weight Gain or Difficulty Losing Weight",
+    "category": "metabolic",
+    "rotterdam_category": null,
+    "description": "Unintended weight gain, particularly around the midsection/abdomen, or inability to lose weight despite consistent lifestyle.",
+    "synonyms": {
+      "en": [
+        "weight gain",
+        "difficulty losing weight",
+        "putting on weight",
+        "belly fat",
+        "unexplained weight increase",
+        "stubborn weight"
+      ],
+      "hi": [
+        "wazan badh raha hai",
+        "weight gain ho raha hai",
+        "pet par charbi",
+        "wazan kam nahi ho raha",
+        "motaapa badhna"
+      ],
+      "kn": [
+        "ತೂಕ ಹೆಚ್ಚಾಗುವಿಕೆ",
+        "ತೂಕ ಇಳಿಯುತ್ತಿಲ್ಲ",
+        "ದಪ್ಪಗಾಗುತ್ತಿದ್ದೇನೆ",
+        "tooka hechhaguvike",
+        "weight jasti aagthide"
+      ]
+    },
+    "linked_conditions": ["pcos", "thyroid_disorders"]
+  },
+  {
+    "_id": "sym_dark_skin_patches",
+    "key": "dark_skin_patches",
+    "label_en": "Dark Skin Patches (Acanthosis Nigricans)",
+    "category": "metabolic",
+    "rotterdam_category": null,
+    "description": "Velvety, darkened areas of skin usually appearing in body creases such as the back of the neck, armpits, or groin.",
+    "synonyms": {
+      "en": [
+        "dark neck",
+        "dark patches in armpits",
+        "dark skin in creases",
+        "acanthosis nigricans",
+        "black neck skin",
+        "velvety skin"
+      ],
+      "hi": [
+        "gardan kali hona",
+        "gardan par kale nishan",
+        "bagal me kala pan",
+        "skin dark ho rahi hai",
+        "twacha par kale dhabbe"
+      ],
+      "kn": [
+        "ಕೊರಳು ಕಪ್ಪಾಗುವುದು",
+        "ಕತ್ತಿನ ಮೇಲೆ ಕಪ್ಪು ಕಲೆಗಳು",
+        "koralu kappaguvudu",
+        "neck dark aagide"
+      ]
+    },
+    "linked_conditions": ["pcos"]
+  },
+  {
+    "_id": "sym_mood_changes",
+    "key": "mood_changes",
+    "label_en": "Mood Swings, Anxiety, or Irritability",
+    "category": "wellbeing",
+    "rotterdam_category": null,
+    "description": "Frequent fluctuations in emotional state, heightened irritability, low mood, or anxiety closely tied to hormone variations.",
+    "synonyms": {
+      "en": [
+        "mood swings",
+        "irritability",
+        "feeling anxious",
+        "emotional ups and downs",
+        "feeling low",
+        "crying spells"
+      ],
+      "hi": [
+        "mood swings",
+        "chidhchidhapan",
+        "gussa jyada aana",
+        "mann udas rehna",
+        "mood kharab rehna",
+        "ghabrahat"
+      ],
+      "kn": [
+        "ಮನಸ್ಥಿತಿ ಬದಲಾವಣೆಗಳು",
+        "ಬೇಗ ಕೋಪ ಬರುವುದು",
+        "ಚಿಂತೆ ಮತ್ತು ಕಿರಿಕಿರಿ",
+        "manasthiti badalavane",
+        "mood swings agodu",
+        "kirikiri"
+      ]
+    },
+    "linked_conditions": ["pcos", "thyroid_disorders"]
+  },
+  {
+    "_id": "sym_fatigue_exhaustion",
+    "key": "fatigue_exhaustion",
+    "label_en": "Fatigue or Constant Exhaustion",
+    "category": "systemic",
+    "rotterdam_category": null,
+    "description": "Feeling deeply tired or low in energy even after adequate sleep.",
+    "synonyms": {
+      "en": [
+        "fatigue",
+        "tired all the time",
+        "exhaustion",
+        "low energy",
+        "feeling sluggish",
+        "lack of energy"
+      ],
+      "hi": [
+        "thakan rehti hai",
+        "kamzori",
+        "har waqt susti",
+        "tired rehna",
+        "energy bilkul nahi hai"
+      ],
+      "kn": [
+        "ಆಯಾಸ",
+        "ನಿಶ್ಯಕ್ತಿ",
+        "ಯಾವಾಗಲೂ ಸುಸ್ತು",
+        "ayasa",
+        "susthu",
+        "nishyakti"
+      ]
+    },
+    "linked_conditions": ["thyroid_disorders", "pcos"]
+  },
+  {
+    "_id": "sym_cold_intolerance",
+    "key": "cold_intolerance",
+    "label_en": "Cold Intolerance (Feeling Cold Constantly)",
+    "category": "systemic",
+    "rotterdam_category": null,
+    "description": "Feeling chilled or shivering when others in the same environment feel comfortable.",
+    "synonyms": {
+      "en": [
+        "feeling cold all the time",
+        "cold intolerance",
+        "sensitive to cold",
+        "shivering in normal temperature",
+        "cold hands and feet"
+      ],
+      "hi": [
+        "bohot sardi lagna",
+        "har waqt thand lagti hai",
+        "hath pair thande",
+        "thand bardasht nahi hoti"
+      ],
+      "kn": [
+        "ವಿಪರೀತ ಚಳಿ",
+        "ಯಾವಾಗಲೂ ಚಳಿ ಅನಿಸುವುದು",
+        "chali anasuvudu",
+        "cold thalegolala"
+      ]
+    },
+    "linked_conditions": ["thyroid_disorders"]
+  },
+  {
+    "_id": "sym_galactorrhea_discharge",
+    "key": "galactorrhea_discharge",
+    "label_en": "Nipple Discharge (Non-Lactating)",
+    "category": "endocrine",
+    "rotterdam_category": null,
+    "description": "Milky or clear fluid leakage from nipples when not pregnant or breastfeeding.",
+    "synonyms": {
+      "en": [
+        "nipple discharge",
+        "milky fluid from breast",
+        "breast discharge",
+        "galactorrhea"
+      ],
+      "hi": [
+        "breast se pani aana",
+        "doodh jaisa fluid nikalna",
+        "nipple se discharge"
+      ],
+      "kn": [
+        "ಸ್ತನದಿಂದ ಸ್ರಾವ",
+        "stanadinda srava"
+      ]
+    },
+    "linked_conditions": ["hyperprolactinemia"]
+  },
+  {
+    "_id": "sym_unrelated_symptom",
+    "key": "unrelated_symptom",
+    "label_en": "Other General Symptom",
+    "category": "general",
+    "rotterdam_category": null,
+    "description": "General non-reproductive symptoms such as musculoskeletal pain, dental pain, cold/cough, etc.",
+    "synonyms": {
+      "en": [
+        "knee hurts",
+        "joint pain",
+        "back hurts",
+        "cough",
+        "running nose",
+        "tooth pain",
+        "fever",
+        "stomach upset"
+      ],
+      "hi": [
+        "ghutne me dard",
+        "kamar dard",
+        "khasi",
+        "sardi jukam",
+        "dant dard"
+      ],
+      "kn": [
+        "ಮಂಡಿ ನೋವು",
+        "ಬೆನ್ನು ನೋವು",
+        "ಕೆಮ್ಮು",
+        "mandi novu",
+        "bennu novu"
+      ]
+    },
+    "linked_conditions": []
+  }
+]
