@@ -12,17 +12,14 @@ The screenshots below are included in this repository and displayed here on GitH
 ### Interface
 The main screen before any input, showing the input options.
 
-![Interface](screenshots/interface.png)
-
 ### Overview
 A plain-language overview of the result, in the style of an AI overview.
 
-![Overview](screenshots/overview.png)
+![Overview](overview.png)
 
 ### Advice
 The information-extraction and understanding step: what the app picked up from the input and how it was interpreted, with suggestions on who to see and what to ask.
 
-![Advice](screenshots/advice.png)
 
 ## What it does
 
